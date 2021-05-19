@@ -81,7 +81,8 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
+.bloc-bg-texture::before 
+{
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -90,6 +91,14 @@ a:hover {
     left: 0;
     right: 0;
 }
+
+.col-sm-12
+    {
+    font-size:25px;
+    text-align:center;
+    color: #5c5a5a;
+    font-weight:bold;
+    }
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
@@ -660,7 +669,8 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size:38px;
+    text-align:center;
 }
 
 .hero-bloc-text-sub {
@@ -681,11 +691,16 @@ p {
     font-size: 11px;
 }
 
-.tight-width-whitespace {
+.Page2-Paragraphe1 
+{
     max-width: 600px;
     margin: auto auto auto auto;
+    text-align:center;
 }
-
+.Page2-Paragraphe2
+{
+    text-align:center;
+}
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -776,7 +791,7 @@ h4 {
 }
 
 .tc-white {
-    color: #471D00!important;
+    color: #000000 !important;
 }
 
 .btn-atomic-tangerine {
@@ -808,10 +823,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #000000!important;
     border-color: #000000!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
@@ -963,7 +974,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height:40px;
         width: auto;
     }
     .nav-invert .navbar-header {
