@@ -305,7 +305,6 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
@@ -690,7 +689,11 @@ a {
 p {
     font-size: 11px;
 }
-
+.Formulaire
+{
+    display:flex;
+    flex-direction:column;
+}
 .Page2-Paragraphe1 
 {
     max-width: 600px;
