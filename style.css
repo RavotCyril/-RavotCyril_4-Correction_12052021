@@ -56,15 +56,11 @@ body {
     padding: 20px 50px;
   }
   
-  .bg-center, .bg-l-edge, .bg-r-edge, .bg-t-edge, .bg-b-edge, .bg-tl-edge, .bg-bl-edge, .bg-tr-edge, .bg-br-edge, .bg-repeat {
+  .bg-center, .bg-l-edge, .bg-r-edge, .bg-t-edge, .bg-b-edge, .bg-tl-edge, .bg-bl-edge, .bg-tr-edge, .bg-br-edge {
     -webkit-background-size: auto!important;
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
-  }
-  
-  .bg-repeat {
-    background: repeat;
   }
   
   .bg-t-edge {
@@ -732,10 +728,6 @@ body {
   .icon-dark-slate-blue {
     color: #000000!important;
     border-color: #000000!important;
-  }
-  
-  .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
   }
   
   .bg-banniere {
