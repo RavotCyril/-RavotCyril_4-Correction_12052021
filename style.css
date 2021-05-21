@@ -568,7 +568,11 @@ body {
   .container {
     max-width: 1000px;
   }
-  
+  .form-group{
+    font-weight:bold;
+    color:black;
+  }
+
   .hero-bloc-text {
     font-size: 38px;
     text-align: center;
